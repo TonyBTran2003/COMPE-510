@@ -1,1 +1,9 @@
+# Raw packet captures and generated large tables must not go into Git.
+data/
 datasets/
+output/
+__pycache__/
+.venv/
+*.pcap
+*.pcapng
+*.packets.csv.gz
